@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+/* 	CSS for index.html Gina-Cooking-book;
+	Script date: Oct 10, 2017;
+	Developed by: Thanh-Tung Pham IPD12;
+*/
+
+body {
+	background: url("../images/Tile.jpg");
+	width: 70%;
+	margin: 0 auto;
+	line-height: 1.4em;
+	letter-spacing: 1px;
+}
+
+.centerAlign {
+	text-align: center;
+}
+.clearFloat {
+	clear: both;
+	display: block;
+	width: 100px;
+}
+
+/* Styling the div images*/
+div.centerAlign img {
+	border: 5px dotted #e33;
+}
+
+/* Styling the hr */
+hr {
+	height: 12px;
+	box-shadow: 0 5px 5px #999;
+	background: #6f6;
+	margin-bottom: 2em;
+	border-radius: 5px;
+}
+
+/* Styling the main div */
+#main > img {
+	border: 5px solid #d55;
+	width: 30%;
+	box-shadow: 10px 10px 10px #999;
+	float: left;
+	margin: 3em;
+	height: 320px;
+	border-radius: 3px;
+	transition: 3s;
+}
+
+#main > img[alt="Paste"] {
+	float: right;
+}
+
+#main > img:hover {
+	transform: scale(1.5, 1.5) rotateZ(360deg);
+}
+
+h2, h3 {
+	display: inline-block;
+	background: #ccc;
+	box-shadow: 2px 5px 2px #888;
+	padding: 4px;
+	border-radius: 5px
+}
+
+p:first-letter {
+	font-family: cursive;
+	font-size: 2em;
+}
+
+h2 {
+	color: #8ad;
+}
+
+h3 {
+	color: #d22;
+}
+
+h4 {
+	background: url("../images/Sunset.gif") no-repeat;
+	height: 25px;
+	width: 120px;
+	border: 2px solid #34d;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #888;
+	padding: 4px;
+}
+
+img[alt^="Sunset"] {
+	width: 150px;
+	height: 30px;
+	border: 3px solid blue;
+	border-radius: 5px;
+	float: left;
+}
+
+li {
+	list-style-image: url("../images/Tomato.gif");
+}
